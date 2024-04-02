@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #211522;
+    color: #e3d1da;
+    height: 7rem;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 40px;
+}
+
+.Choice {
+    height: 210px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Choice:hover {
+    cursor: pointer;
+    background-color: #451349;
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.Choicess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.result {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#yourScore,
+#compScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#diaplayMessege {
+    background-color: #211522;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
